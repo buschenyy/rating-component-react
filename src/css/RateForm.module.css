@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Overpass:wght@400;700);
-
 .modal {
   display: flex;
   flex-direction: column;
@@ -12,13 +11,13 @@
   background-color: #212832;
   border-radius: 25px;
   box-sizing: border-box;
-  span {
-    line-height: 50px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  p {
-    color: #767d87;
-    margin: 0;
-  }
 }
+.modal span {
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.modal p {
+  color: #767d87;
+  margin: 0;
+}/*# sourceMappingURL=RateForm.module.css.map */

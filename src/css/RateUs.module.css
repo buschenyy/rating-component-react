@@ -1,0 +1,43 @@
+.circleContainer, .btnContainer .rateBtn, .btnContainer .submitBtn {
+  width: 46px;
+  height: 46px;
+  border-radius: 30px;
+  background-color: #272E38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.btnContainer .rateBtn, .btnContainer .submitBtn {
+  border: 0;
+  color: #767d87;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btnContainer .rateBtn:hover, .btnContainer .submitBtn:hover {
+  background-color: #7c8898;
+  color: white;
+}
+.btnContainer .rateBtn.active, .btnContainer .active.submitBtn {
+  background-color: #f97812;
+  color: white;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 48px;
+  background-color: #fc7613;
+  border: 0;
+  border-radius: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: #ffffff;
+  color: #fc7613;
+}/*# sourceMappingURL=RateUs.module.css.map */

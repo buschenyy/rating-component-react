@@ -1,0 +1,37 @@
+@import '../Rate/UI/Circle.module.scss';
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  .rateBtn {
+    @extend .circleContainer;
+    border: 0;
+    color: #767d87;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .rateBtn:hover {
+    background-color: #7c8898;
+    color: white;
+  }
+  .rateBtn.active {
+    background-color: #f97812;
+    color: white;
+  }
+}
+
+.submitBtn {
+  @extend .rateBtn;
+  width: 100%;
+  height: 48px;
+  background-color: #fc7613;
+  border: 0;
+  border-radius: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    background-color: #ffffff;
+    color: #fc7613;
+  }
+}
