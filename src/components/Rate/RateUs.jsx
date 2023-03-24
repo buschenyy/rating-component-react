@@ -4,7 +4,7 @@ import Circle from './UI/Circle'
 
 const rateButtons = [1, 2, 3, 4, 5]
 
-export default function RateUs({ activeBtn, setActiveBtn }) {
+export default function RateUs({ activeBtn, setActiveBtn, submit }) {
   return (
     <>
       <Circle>
@@ -30,7 +30,11 @@ export default function RateUs({ activeBtn, setActiveBtn }) {
           </button>
         ))}
       </div>
-      <button className={styles.submitBtn} type="submit">
+      <button
+        disabled={!activeBtn ? true : false}
+        className={styles.submitBtn}
+        onClick={() => submit(true)}
+      >
         Submit
       </button>
     </>

@@ -34,4 +34,13 @@
     background-color: #ffffff;
     color: #fc7613;
   }
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  &:disabled:hover {
+    background-color: #fc7613;
+    color: #ffffff;
+    cursor: default;
+  }
 }

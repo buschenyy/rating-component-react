@@ -12,6 +12,11 @@
   border-radius: 25px;
   box-sizing: border-box;
 }
+.modal.center {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
 .modal span {
   line-height: 50px;
   font-size: 25px;

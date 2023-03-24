@@ -2,7 +2,7 @@
   width: 46px;
   height: 46px;
   border-radius: 30px;
-  background-color: #272E38;
+  background-color: #272e38;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,4 +40,12 @@
 .submitBtn:hover {
   background-color: #ffffff;
   color: #fc7613;
+}
+.submitBtn:disabled {
+  opacity: 0.3;
+}
+.submitBtn:disabled:hover {
+  background-color: #fc7613;
+  color: #ffffff;
+  cursor: default;
 }/*# sourceMappingURL=RateUs.module.css.map */

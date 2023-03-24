@@ -12,6 +12,11 @@
   background-color: #212832;
   border-radius: 25px;
   box-sizing: border-box;
+  &.center{
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
   span {
     line-height: 50px;
     font-size: 25px;
@@ -22,3 +27,4 @@
     margin: 0;
   }
 }
+
