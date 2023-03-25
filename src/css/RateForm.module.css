@@ -1,4 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Overpass:wght@400;700);
+.App {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .modal {
   display: flex;
   flex-direction: column;
@@ -8,7 +19,7 @@
   padding: 30px;
   width: 374px;
   height: 374px;
-  background-color: #212832;
+  background-color: #1d242d;
   border-radius: 25px;
   box-sizing: border-box;
 }
@@ -23,6 +34,6 @@
   font-weight: 700;
 }
 .modal p {
-  color: #767d87;
+  color: hsl(217, 12%, 63%);
   margin: 0;
 }/*# sourceMappingURL=RateForm.module.css.map */

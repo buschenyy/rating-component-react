@@ -1,6 +1,6 @@
 import { ReactComponent as StarIcon } from '../../images/icon-star.svg'
 import styles from './RateUs.module.scss'
-import Circle from './UI/Circle'
+import Circle from '../UI/Circle'
 
 const rateButtons = [1, 2, 3, 4, 5]
 

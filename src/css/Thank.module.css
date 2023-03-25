@@ -1,8 +1,19 @@
+.App {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .starInfo {
   height: 35px;
   width: 196px;
-  background-color: #262f38;
-  color: #fc7613;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
   border-radius: 35px;
   display: flex;
   justify-content: center;

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Overpass:wght@400;700);
+@import '../../App.module.scss';
 
 .modal {
   display: flex;
@@ -9,7 +10,7 @@
   padding: 30px;
   width: 374px;
   height: 374px;
-  background-color: #212832;
+  background-color: #1d242d;
   border-radius: 25px;
   box-sizing: border-box;
   &.center{
@@ -23,7 +24,7 @@
     font-weight: 700;
   }
   p {
-    color: #767d87;
+    color: $lightGrey;
     margin: 0;
   }
 }

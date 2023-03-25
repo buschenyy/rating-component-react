@@ -1,8 +1,10 @@
+@import '../../App.module.scss';
+
 .starInfo {
   height: 35px;
   width: 196px;
-  background-color: #262f38;
-  color: #fc7613;
+  background-color: $darkBlue;
+  color: $orange;
   border-radius: 35px;
   display: flex;
   justify-content: center;

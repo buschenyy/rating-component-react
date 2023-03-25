@@ -1,8 +1,10 @@
+@import '../../App.module.scss';
+
 .circleContainer {
   width: 46px;
   height: 46px;
   border-radius: 30px;
-  background-color: #272e38;
+  background-color: $darkBlue;
   display: flex;
   align-items: center;
   justify-content: center;

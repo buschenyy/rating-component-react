@@ -1,8 +1,19 @@
+.App {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: hsl(0, 0%, 100%);
+}
+
 .circleContainer {
   width: 46px;
   height: 46px;
   border-radius: 30px;
-  background-color: #272e38;
+  background-color: hsl(213, 19%, 18%);
   display: flex;
   align-items: center;
   justify-content: center;
